@@ -1,0 +1,83 @@
+TD{Color : Black; Font-Family : Arial; Font-Size : 12px;}
+
+.wtxt {
+	Color : White;
+	Font-Family : Arial;
+	Font-Size : 12px;
+}
+
+.cop {
+	Color : Black;
+	Font-Family : Arial;
+	Font-Size : 12px;
+}
+
+INPUT.fr1 { BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif; BACKGROUND-COLOR: #ffffff ; font-size: 10px; color: #000000 }
+.subm { BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif; BACKGROUND-COLOR: #ffffff ; font-size: 10px; color: black; font-weight : Bold; }
+.formt { FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif; BACKGROUND-COLOR: #ffffff ; font-size: 11px; color: #3333cc; font-weight: bold;}
+textarea { BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif; BACKGROUND-COLOR: #ffffff ; font-size: 10px; color: #000000 }
+SELECT { BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif; BACKGROUND-COLOR: #ffffff ; font-size: 10px; color: #000000 }
+INPUT.btn { color : #CFD6EF; }
+
+A {
+	Color : Black;
+	text-decoration : underline;
+}
+A:visited {
+	Color : Black;
+	text-decoration : underline;
+}
+A:hover {
+	Color : Black;
+	text-decoration : none;
+}
+A:active {
+	Color : Black;
+	text-decoration : none;
+}
+
+A.bmnu {
+	Color : #535B66;
+	text-decoration : underline;
+}
+A.bmnu:visited {
+	Color : #535B66;
+	text-decoration : underline;
+}
+A.bmnu:hover {
+	Color : #535B66;
+	text-decoration : none;
+}
+A.bmnu:active {
+	Color : #535B66;
+	text-decoration : none;
+}
+
+A.lmnu {
+	Color : #050C24;
+	Font-Family : Arial;
+	Font-Size : 12px;
+	text-decoration : none;
+	Font-Weight : bold;
+}
+A.lmnu:visited {
+	Color : #050C24;
+	Font-Family : Arial;
+	Font-Size : 12px;
+	text-decoration : none;
+	Font-Weight : bold;
+}
+A.lmnu:hover {
+	Color : #050C24;
+	Font-Family : Arial;
+	Font-Size : 12px;
+	text-decoration : underline;
+	Font-Weight : bold;
+}
+A.lmnu:active {
+	Color : #050C24;
+	Font-Family : Arial;
+	Font-Size : 12px;
+	text-decoration : underline;
+	Font-Weight : bold;
+}

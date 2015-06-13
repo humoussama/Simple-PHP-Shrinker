@@ -1,0 +1,68 @@
+body{
+background: #E9E6DC; 
+font-family: "arial"; 
+font-size: 10pt; 
+color: #000000; 
+text-decoration: none;
+cursor: auto;
+scrollbar-arrow-color:WHITE;
+scrollbar-track-color:#E9E6DC;
+scrollbar-shadow-color:#D6D6D6;
+scrollbar-face-color:#003366;
+scrollbar-highlight-color:#D6D6D6;
+scrollbar-darkshadow-color:#003366;
+scrollbar-3dlight-color:#003366;
+}
+
+h1,h2,h3,h4,h5,h6{text-align:center;}
+a{
+color: #003366; 
+text-decoration: none; 
+font-family: "arial"; 
+font-size: 10pt;
+}
+
+a:hover{
+color: #000080; 
+text-decoration: underline; 
+font-family: "arial"; 
+font-size: 10pt; 
+}
+
+table, th, td, p {
+color: #000000; 
+text-decoration: none; 
+font-family: "arial"; 
+font-size: 10pt;
+cursor : auto;
+}
+
+div.menu_bar{width:95%;text-align:center;background-color:#004993;color:#C8CAE6;font-weight:bold;padding:0 10 0 10}
+
+a.menu_bar, a.menu_bar:hover{color:#C8CAE6;font-weight:bold}
+
+input,select{
+background-color : #003366;
+border-color : #000000;
+color : #FFFFFF;
+font-size : 12;
+font-family: "arial";
+border-style : solid;
+border-width : 1;
+width:250px
+}
+
+.windowbg
+{
+background-color: #D8D3C2;
+border-color: #003366 #003366 #003366 #003366; 
+padding-top: 1px; 
+padding-right: 1px; 
+padding-bottom: 1px; 
+padding-left: 1px; 
+border-style: outset; 
+border-top-width: 1px;
+border-right-width: 1px; 
+border-bottom-width: 1px; 
+border-left-width: 1px
+}

@@ -1,0 +1,24 @@
+<!--=include file="adminheader.htm"=-->
+<center>
+<form method=post>
+<table width='65%' align='center' cellpadding='2' cellspacing='0' border='1' bordercolor='#000000'>
+<tr><th>Key</th><th>Value</th></tr>
+
+<tr><td colspan="2" align="center"><strong>ADMINISTRATOR'S AUTHORIZATION</strong></td></tr>
+<tr><td><strong>Login</strong></td><td align="center"><input name="alogin" value="<!--=$sett.alogin=-->"></td></tr>
+<tr><td><strong>Password</strong></td><td align="center"><input name="apwd" value="<!--=$sett.apwd=-->"></td></tr>
+
+<tr><td colspan="2" align="center"><strong>WEB-SITE SETTINGS</strong></td></tr>
+<tr><td><strong>URL to index</strong></td><td align="center"><input name="url_to_index" value="<!--=$sett.url_to_index=-->"></td></tr>
+<tr><td><strong>Rows per page</strong></td><td align="center"><input name="upp" value="<!--=$sett.upp=-->"></td></tr>
+<tr><td><strong>Limit of records that selected from database</strong></td><td align="center"><input name="limit" value="<!--=$sett.limit=-->"></td></tr>
+<tr><td><strong>Frequency of refreshing</strong></td><td align="center"><input name="refreshrate" value="<!--=$sett.refreshrate=-->"></td></tr>
+<tr><td><strong>The links' lenght</strong></td><td align="center"><input name="link_lenght" value="<!--=$sett.link_lenght=-->"></td></tr>
+</table><br>
+<input type=submit name=settings value='Change settings' onclick='return c()'>
+</form>
+</center>
+</body>
+</html>
+
+

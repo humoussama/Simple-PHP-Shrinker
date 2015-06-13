@@ -1,0 +1,53 @@
+<!--=include file="adminheader.htm"=-->
+
+<strong><!--=$maxNumb=--></strong><br>
+<strong>
+<a href='<!--=$page=-->?page_show_all=<!--=$page_show_all=-->&show_all=all'>[show all]</a> |
+<a href='<!--=$page=-->?page_show_all=<!--=$page_show_all=-->&delete=all' onclick='return c()'>[delete all records]</a> |
+<a href='<!--=$page=-->?page_show_all=<!--=$page_show_all=-->&clear=all' onclick='return c()'>[clear rating]</a> |
+<a href='<!--=$page=-->?page_show_all=<!--=$page_show_all=-->&set=all' onclick='return c()'>[set all to show add]</a> |
+<a href='<!--=$page=-->?page_show_all=<!--=$page_show_all=-->&uset=all' onclick='return c()'>[unset  all]</a>
+</strong>
+
+<!--=$pageSelector=-->
+<form name=admin method=post onsubmit='return c()'>
+<table width='95%' align='center' cellpadding='2' cellspacing='0' border='1' bordercolor='#000000'>
+<tr>
+<th style='width:30px'>#</th>
+<th style='width:100px'><a href='admin.php?page_show_all=<!--=$page_show_all=-->&orderby=ip'>IP</a></th>
+<th style='width:250px'>tiny url</th>
+<th><a href='admin.php?page_show_all=<!--=$page_show_all=-->&orderby=fullurl'>full url</a></th>
+<th style='width:50px'><a href='admin.php?page_show_all=<!--=$page_show_all=-->&orderby=numb'>rating</a></th>
+<th style='width:50px'><a href='admin.php?page_show_all=<!--=$page_show_all=-->&orderby=showsplash'>show ad</a></th>
+<th style='width:150px'><input type='submit' name='remove' value='Delete'></th>
+</tr>
+<!--=section name=urls loop=$urls=-->
+<tr>
+<td align=center><!--=$urls[urls].n=--></td>
+<td><!--=$urls[urls].ip=--></td>
+<td align=center><a href="<!--=$url_to_index=-->?<!--=$urls[urls].tinylink=-->" target="_blank"><!--=$urls[urls].tinylink=--></a></td>
+<td>&nbsp;<a title="<!--=$urls[urls].fullurl=-->" href="<!--=$urls[urls].fullurl=-->" target="_blank"><!--=$urls[urls].link=--></a></td>
+<td align=center><!--=$urls[urls].numb=--></td>
+<td align=center><a href='admin.php?page_show_all=<!--=$page_show_all=-->&change=<!--=$urls[urls].tinylink=-->&val=<!--=$urls[urls].val=-->'><!--=$urls[urls].showsplash=--></a></td>
+<td><input type='checkbox' name='ch<!--=$urls[urls].n=-->' value='<!--=$urls[urls].tinylink=-->'></td>
+</tr>
+<!--=/section=-->
+</table>
+</form>
+<!--=$pageSelector=-->
+<form name="search" method="get">
+<table width='95%' align='center' cellpadding='2' cellspacing='0' border='0' bordercolor='#000000'>
+<tr><td width="50%" align="right"><strong>Find URL:</strong></td><td width="50%"><input name="surl"></td></tr>
+<tr><td width="50%"></td><td><input type="Submit" value="Search" name="search"></td></tr>
+</table><br><br>
+</form>
+<form name=res method=post onsubmit='return c()'>
+<table width='95%' align='center' cellpadding='2' cellspacing='0' border='1' bordercolor='#000000'>
+<tr><th>today</th><th>last week</th><th>last month</th><th>last three month</th><th>since the begining</th></tr>
+<tr><th><!--=$total.day1=--></th><th><!--=$total.day7=--></th><th><!--=$total.day30=--></th><th><!--=$total.day90=--></th><th><!--=$total.dayAll=--></th></tr>
+</table><br>
+<input type="submit" value="Reset" name="reset">
+</center>
+</form>
+</body>
+</html>

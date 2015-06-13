@@ -1,0 +1,110 @@
+<!--=include file="header.htm"=-->
+
+</head>
+
+<body bgcolor=white leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
+
+
+<table width=100% height=100% border=0 cellpadding=0 cellspacing=0>
+<tr align=center valign=middle><td>
+<br>
+
+<table border=0 width=300 cellpadding=0 cellspacing=0>
+<tr><td>
+
+<!-- ## LOGO -->
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr valign=bottom>
+<td><img src=images/tr1.gif width=25 height=20><br></td>
+<td width=100% align=center><h1><img src="http://links.lecultureur.com/logo.png" width="445" height="150"></h1>
+  <br></td>
+<td><img src=images/spacer.gif width=25 height=1><br></td>
+</tr>
+</table>
+
+<!-- /## LOGO -->
+
+<!-- ## FORM -->
+
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td><img src=images/tr2.gif width=25 height=95><br></td>
+<td background=images/bg1.gif valign=bottom>
+
+<table border=0 height=80 cellpadding=0 cellspacing=0 background="">
+
+<form name="fomu" action="" method="post">
+<tr valign=middle align=center>
+  <td class=wtxt>Merci de mettre dans le formulaire le lien que vous voulez raccourcir :</td>
+</tr>
+<tr valign=middle align=center><td>
+
+<table border=0 cellpadding=0 cellspacing=0 background="">
+<tr><td><input name="fullurl" type="text" value="http://" size="42" maxlength="2560" style="width:450px; height:20px;FONT-FAMILY: Arial, Helvetica, Sans-serif; BACKGROUND-COLOR: #ffffff ; font-size: 12px; color: #000000;"></td></tr>
+</table>
+
+</td></tr>
+<tr><td>
+
+<table border=0 width=100% cellpadding=0 cellspacing=0 background="">
+<tr>
+<td><img src=images/spacer.gif width=42 height=1><br></td>
+<td width=100% align=center valign=middle><input type=submit value="Raccourcir !"></td>
+<td align=right valign=bottom><img src=images/tr4.gif width=42 height=38><br></td>
+</tr>
+</table>
+
+</td></tr>
+</form></table>
+
+</td>
+<td><img src=images/tr3.gif width=33 height=95><br></td>
+</tr>
+</table>
+
+<table border=0 width=100% cellpadding=0 cellspacing=0>
+<tr><td align=right><img src=images/tr5.gif width=365 height=7><br></td></tr>
+</table>
+
+<!-- /## FORM -->
+
+<img src=images/spacer.gif width=1 height=17><br>
+
+<!-- ## MENU -->
+
+<table border=0 width=100% cellpadding=0 cellspacing=0>
+
+<!--=if $randlink =-->
+<tr align=center><td class=cop><br><br>
+  L'adresse internet : <strong><a href="<!--=$fullurl=-->" target=_blank><!--=$fullurl=--></a></strong>  a &eacute;t&eacute; raccourcie en :<br>
+<br>
+<a style="color:red;" href="<!--=$url_to_index=-->?<!--=$randlink=-->"><strong><!--=$url_to_index=-->?<!--=$randlink=--></strong></a></td></tr>
+<!--=/if=-->
+
+<tr align=center><td class=cop>&nbsp;</td></tr>
+</table>
+
+<!-- /## MENU -->
+
+<img src=images/spacer.gif width=1 height=40><br>
+<img src=images/spacer.gif width=1 height=45><br>
+
+<!-- ## COPYRIGHT INFO -->
+<div align=center class=cop>
+  <p>Il y'a <b>
+    <!--=$records=-->
+    </b> liens dans la base de données. Service de <a href="http://www.likane.com" target="_blank"><font class="cop">Likane.com</font></a>.<br>
+    </p>
+  </div>
+<!-- /## COPYRIGHT INFO -->
+
+</td></tr>
+</table>
+
+<br>
+</td></tr>
+</table>
+
+</body>
+</html>

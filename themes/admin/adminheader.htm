@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>Simple PHP Shrinker :: Administration Area</title>
+<link rel="stylesheet" type="text/css" href="../images/admin/style.css">
+<script>
+function c(){
+return window.confirm("Are you sure?");
+}
+function clearRating(){
+var im = new Image();
+im.src = "clearrating.php?all=1";
+}
+</script>
+</head>
+
+<body>
+<center>
+<h2>Administration Area</h2>
+<a href='<!--=$url_to_index=-->'>[Index]</a> 
+<a href='admin.php'>[Admin Home]</a> 
+<a href='settings.php'>[Settings]</a> 
+<a href='ad.php'>[Edit Ad]</a> 
+<a href='logout.php'>[Logout]</a><br>
+<br>
